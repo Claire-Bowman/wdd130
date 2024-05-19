@@ -1,3 +1,12 @@
+body {
+    background-color: #55a78cef; 
+}
+header {
+    background-color:rgba(11, 89, 37, 0.7);
+}
+nav a:hover {
+    background-color: rgb(110, 133, 123);
+}
 head, div{
     text-align: center;
 }
@@ -6,4 +15,7 @@ body{
 }
 div{
     text-align: center;
+}
+#background {
+    height: 725px;
 }
