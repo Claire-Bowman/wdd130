@@ -1,8 +1,15 @@
 body {
-    background-color: #55a78cef; 
+    background-color: #ffffff; 
 }
 header {
     background-color:rgba(11, 89, 37, 0.7);
+    text-emphasis-color: #aea0a0aa;
+}
+#logo_link {
+    padding: 10%;
+}
+body, header{
+    padding: 10px;
 }
 nav a:hover {
     background-color: rgb(110, 133, 123);
