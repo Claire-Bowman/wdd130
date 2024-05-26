@@ -6,23 +6,39 @@ header {
     text-emphasis-color: #aea0a0aa;
 }
 #logo_link {
-    padding: 10%;
+    padding: 15px;
 }
 body, header{
     padding: 10px;
 }
 nav a:hover {
     background-color: rgb(110, 133, 123);
+    padding: 10px;
 }
 head, div{
     text-align: center;
 }
 body{
     text-align: center;
+    margin: 0%;
 }
 div{
     text-align: center;
 }
 #background {
     height: 725px;
+}
+.home-title{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 5em;
+}
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 3em;
+    border: #448163;
+    padding: 2;
+    margin: auto;
+}
+.card-img{
+    border: 7px solid rgba(11, 89, 37, 0.7);
 }
