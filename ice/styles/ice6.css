@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.cherry-img{
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+.tart{
+    color: black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 10em;
+}
+.cherry{
+    color: rgb(135, 15, 15);
+    grid-column: 2/2;
+    grid-row: 1/2;
+    font-size: 8em;
+    
+}
